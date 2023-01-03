@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.MenuButton?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane id="SearchFriend" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="350.0" prefWidth="600.0"  xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.wechat.SearchFriendController">
+   <children>
+      <Button id="quit1" defaultButton="true" layoutX="503.0" layoutY="33.0" mnemonicParsing="false" onAction="#Search" prefHeight="30.0" prefWidth="46.0" text="搜索" />
+      <TextField id="textInput" fx:id="search_TextField" layoutX="226.0" layoutY="29.0" prefHeight="38.0" prefWidth="265.0" promptText="请输入好友账号或昵称">
+         <padding>
+            <Insets left="32.0" />
+         </padding></TextField>
+      <ListView id="friendList" fx:id="searchList" layoutX="15.0" layoutY="117.0" prefHeight="210.0" prefWidth="565.0" />
+      <Label layoutX="14.0" layoutY="25.0" prefHeight="46.0" prefWidth="224.0" text="Search For Friend :" textFill="#9e9e9e">
+         <font>
+            <Font name="Forte" size="25.0" />
+         </font>
+      </Label>
+      <MenuButton layoutX="40.0" layoutY="83.0" mnemonicParsing="false" prefHeight="23.0" prefWidth="104.0" text="所在地">
+        <items>
+          <MenuItem mnemonicParsing="false" text="中国" />
+          <MenuItem mnemonicParsing="false" text="澳大利亚" />
+        </items>
+      </MenuButton>
+      <MenuButton layoutX="174.0" layoutY="83.0" mnemonicParsing="false" prefHeight="23.0" prefWidth="104.0" text="故乡">
+        <items>
+          <MenuItem mnemonicParsing="false" text="中国" />
+          <MenuItem mnemonicParsing="false" text="澳大利亚" />
+        </items>
+      </MenuButton>
+      <MenuButton layoutX="297.0" layoutY="83.0" mnemonicParsing="false" prefHeight="23.0" prefWidth="56.0" text="性别">
+        <items>
+          <MenuItem mnemonicParsing="false" text="男" />
+          <MenuItem mnemonicParsing="false" text="女" />
+        </items>
+      </MenuButton>
+      <MenuButton layoutX="372.0" layoutY="83.0" mnemonicParsing="false" prefHeight="23.0" prefWidth="56.0" text="年龄">
+        <items>
+          <MenuItem mnemonicParsing="false" text="15" />
+            <MenuItem mnemonicParsing="false" text="16" />
+            <MenuItem mnemonicParsing="false" text="17" />
+            <MenuItem mnemonicParsing="false" text="18" />
+          <MenuItem mnemonicParsing="false" text="19" />
+        </items>
+      </MenuButton>
+      <Button fx:id="add_Button" layoutX="539.0" layoutY="117.0" mnemonicParsing="false" onAction="#AddFriend" text="添加" underline="true" visible="false" />
+      <Button fx:id="add_Button1" layoutX="539.0" layoutY="140.0" mnemonicParsing="false" onAction="#AddFriend1" text="添加" underline="true" visible="false" />
+
+   </children>
+</Pane>

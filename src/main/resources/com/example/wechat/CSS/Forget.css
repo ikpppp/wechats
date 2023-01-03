@@ -1,0 +1,96 @@
+#Forget {
+    -fx-background-radius: 5px;
+    -fx-border-width: 1px;
+    -fx-border-radius: 5px;
+    -fx-border-color: rgb(180, 180, 180);
+    -fx-background-color: white;
+}
+
+#account, #name, #password, #rePassword, #phone {
+    -fx-background-radius: 20px;
+    -fx-background-color: white;
+    -fx-border-radius: 20px;
+    -fx-border-color: rgb(200, 200, 200);
+}
+
+#account {
+
+    -fx-background-image: url("Image/user.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: 8px center;
+}
+
+#name {
+
+    -fx-background-image: url("Image/name.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: 8px center;
+}
+
+#password {
+
+    -fx-background-image: url("Image/password.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: 8px center;
+}
+
+#rePassword {
+
+    -fx-background-image: url("Image/password.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: 8px center;
+}
+
+#phone {
+    -fx-background-image: url("Image/phone.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: 8px center;
+}
+
+#account:hover, #name:hover, #password:hover, #rePassword:hover, #phone:hover {
+    -fx-background-radius: 20px;
+    -fx-background-color: white;
+    -fx-border-radius: 20px;
+    -fx-border-color: rgb(160, 160, 160);
+}
+
+#account:focused, #name:focused, #password:focused, #rePassword:focused, #phone:focused {
+
+    -fx-background-radius: 20px;
+    -fx-background-color: white;
+    -fx-border-radius: 20px;
+    -fx-border-color: rgb(160, 160, 160);
+
+}
+
+#cancel {
+    -fx-background-color: rgb(169,169,169);
+    -fx-background-radius: 20px;
+    -fx-cursor: hand;
+}
+
+#cancel:hover {
+    -fx-background-color: rgb(150,150,150);
+    -fx-cursor: hand;
+}
+
+#cancel:pressed {
+    -fx-background-color: rgb(180,180,180);
+    -fx-cursor: hand;
+}
+
+#reset {
+    -fx-background-color: rgb(169,169,169);
+    -fx-background-radius: 20px;
+    -fx-cursor: hand;
+}
+
+#reset:hover {
+    -fx-background-color: rgb(150,150,150);
+    -fx-cursor: hand;
+}
+
+#reset:pressed {
+    -fx-background-color: rgb(180,180,180);
+    -fx-cursor: hand;
+}

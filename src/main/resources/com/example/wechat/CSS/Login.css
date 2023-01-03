@@ -1,0 +1,72 @@
+#register,#setPassword{
+    -fx-cursor: hand;
+    -fx-border-style: none;
+    -fx-border-width: 0;
+    -fx-border-radius:0;
+    -fx-font-family: "微软雅黑";
+    -fx-background-color: rgba(255,255,255,0);
+}
+#register:hover,#setPassword:hover{
+
+    -fx-background-color: rgba(255,255,255,0);
+    -fx-underline: true;
+}
+#register:pressed,#setPassword:pressed
+{
+
+    -fx-background-color: rgba(255,255,255,0);
+    -fx-underline: true;
+
+}
+#UserName,#Password{
+
+     -fx-background-radius: 20px;
+     -fx-background-color: white;
+     -fx-border-radius: 20px;
+     -fx-border-color: rgb(200,200,200);
+
+
+}
+#UserName{
+    -fx-background-image: url("Image/user.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: 8px center;
+
+}
+#Password{
+    -fx-background-image: url("Image/password.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: 8px center;
+
+}
+#UserName:hover,#Password:hover{
+    -fx-background-radius: 20px;
+    -fx-background-color: white;
+    -fx-border-radius: 20px;
+    -fx-border-color: rgb(160,160,160);
+}
+#UserName:focused,#Password:focused
+{
+
+    -fx-background-radius: 20px;
+    -fx-background-color: white;
+    -fx-border-radius: 20px;
+    -fx-border-color: rgb(160,160,160);
+
+}
+#enter
+{
+    -fx-background-color:rgb(169,169,169);
+    -fx-background-radius: 20px;
+    -fx-cursor: hand;
+}
+#enter:hover
+{
+    -fx-background-color:rgb(150,150,150);
+    -fx-cursor: hand;
+}
+#enter:pressed
+{
+    -fx-background-color:rgb(180,180,180);
+    -fx-cursor: hand;
+}
